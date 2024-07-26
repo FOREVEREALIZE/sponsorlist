@@ -23,7 +23,8 @@ export default function Home() {
 
     return (
         <main className="w-full h-screen flex flex-col p-16 bg-black items-center gap-16">
-            <h1 className="font-kanit text-9xl font-extrabold text-white sm:text-yellow-900 md:text-green-900 lg:text-blue-900 xl:text-fuchsia-900">
+            {/*<h1 className="font-kanit text-9xl font-extrabold text-white sm:text-yellow-900 md:text-green-900 lg:text-blue-900 xl:text-fuchsia-900">*/}
+            <h1 className="font-kanit text-9xl font-extrabold text-white">
                 SPONSORLIST
             </h1>
             <h2 className="font-kanit text-4xl font-extrabold w-3/5 text-center">
