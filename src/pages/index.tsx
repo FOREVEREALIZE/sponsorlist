@@ -23,7 +23,9 @@ export default function Home() {
 
     return (
         <main className="w-full h-screen flex flex-col p-16 bg-black items-center gap-16">
-            <h1 className="font-kanit text-9xl font-extrabold">SPONSORLIST</h1>
+            <h1 className="font-kanit text-9xl font-extrabold text-white sm:text-yellow-900 md:text-green-900 lg:text-blue-900 xl:text-fuchsia-900">
+                SPONSORLIST
+            </h1>
             <h2 className="font-kanit text-4xl font-extrabold w-3/5 text-center">
                 THE SOURCE OF SPONSORSHIP INFORMATION FOR CONTENT CREATORS AND CELEBRITIES
             </h2>
@@ -41,10 +43,8 @@ export default function Home() {
                 />
             </div>
 
-            <div className="grid grid-cols-5 gap-8 w-5/6">
+            <div className="grid grid-cols-1 gap-8 w-5/6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                 {data.map((item) => {
-                    const score = Math.round(Math.random() * 10);
-
                     return (
                         <MainGridItem key={item.id} data={item} />
                     )
