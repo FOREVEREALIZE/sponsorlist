@@ -1,0 +1,32 @@
+[
+    {
+        "id": "test-sqsp",
+        "brandname": "Squarespace",
+        "companies": [
+            "Squarespace Ireland Limited",
+            "Squarespace, Inc."
+        ]
+    },
+    {
+        "id": "test-bthl",
+        "brandname": "BetterHelp",
+        "companies": [
+            "BetterHelp, Inc.",
+            "Teladoc Health, Inc."
+        ]
+    },
+    {
+        "id": "test-rayc",
+        "brandname": "Raycon",
+        "companies": [
+            "Raycon, Inc."
+        ]
+    },
+    {
+        "id": "test-shfy",
+        "brandname": "Shopify",
+        "companies": [
+            "Shopify Inc."
+        ]
+    }
+]
